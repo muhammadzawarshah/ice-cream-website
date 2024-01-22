@@ -1,0 +1,544 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+
+    background: rgb(244, 244, 244);
+
+}
+
+.header .nav{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: roboto;
+    margin: 0px 20px;
+
+}
+
+.header .nav .logo{
+
+    width: 50px;
+
+}
+.header .nav .logo img{
+
+    width: 50px;
+
+}
+.header .nav .logo img:hover{
+
+    cursor: pointer;
+
+}
+
+.header .nav .ul{
+
+    display: flex;
+
+}
+
+.header .nav .ul li{
+
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.header .nav .ul li a{
+
+    text-decoration: none;
+    color: black;
+
+}
+.header .nav .ul li a:hover{
+
+    color: red;
+
+}
+
+.header .nav .btn button{
+
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: rgba(255, 0, 0, 0.688);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: roboto;
+
+}
+
+.header .nav .btn button:hover{
+
+    background: red;
+    cursor: pointer;
+
+}
+
+.header .nav .burger{
+
+    display: none;
+
+}
+
+.header .nav .burger:hover{
+
+    cursor: pointer;
+
+}
+
+.header .nav .ul-respons{
+
+    position: absolute;
+    top: 50px;
+    margin-left: 70vw;
+    background: white;
+    padding: 10px;
+    font-family: roboto;
+    display: none;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+.header .nav .ul-respons li a{
+
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: 0.5s;
+
+}
+.header .nav .ul-respons li a:hover{
+
+    color: rgb(255, 255, 255);
+    background: red;
+    border-radius: 10px;
+
+}
+
+.header .nav .ul-respons li{
+
+    list-style: none;
+    margin-top: 10px;
+
+
+}
+
+
+/* hero */
+
+
+.hero{
+
+    display: flex;
+    justify-content: space-around;
+    background: rgb(244, 244, 244);
+
+}
+
+.left{
+
+    width: 40%;
+    margin: auto;
+
+}
+
+.left .text-container{
+
+    font-family: roboto;
+
+}
+
+.left .text-container h1{
+
+    font-size: 4em;
+
+}
+
+.left .text-container h1 span{
+
+    color: rgba(255, 0, 0, 0.748);
+
+}
+
+.left .text-container p{
+
+    margin-top: 10px;
+
+}
+
+.left .btn{
+
+    margin-top: 20px;
+
+}
+
+.left .btn .order-btn{
+
+    padding: 10px 30px;
+    background: rgba(255, 0, 0, 0.73);
+    color: white;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+.left .btn .order-btn:hover{
+
+    cursor: pointer;
+    background: red;
+
+}
+
+.left .btn .watch{
+
+    background: transparent;
+    margin-left: 40px;
+    padding: 10px 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.left .btn .watch:hover{
+
+    cursor: pointer;
+    background: red;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+
+}
+
+
+.right{
+
+    width: 40%;
+
+}
+
+.right img{
+
+    width: 100%;
+
+}
+
+
+/* town */
+
+.town{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.town .left{
+
+    width: 40%;
+
+}
+
+.town .left img{
+
+    margin-top: 50px;
+    width: 100%;
+
+
+}
+
+
+.town .right{
+
+    font-family: robot;
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-family: roboto;
+
+}
+
+.town h1{
+
+    font-size: 3em;
+    font-family: roboto;
+
+}
+
+.town h1 span{
+
+    color: red;
+
+}
+
+.town .right .container-best-town{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+
+}
+
+.town .right .container-best-town .home,.order,.service,.offer,.quality,.gift{
+
+    width: 81%;
+    margin: 20px 20px;
+
+}
+
+.town .right .container-best-town img{
+
+    width: 20%;
+
+}
+
+
+/* Supper-offer */
+
+
+.super-offer{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: roboto;
+    margin-top: 50px;
+    background: rgb(244, 244, 244);
+
+}
+
+.super-offer .Supper-offer-left{
+
+    width: 40%;
+
+}
+
+.super-offer .Supper-offer-left h1{
+
+    font-size: 3em;
+    font-family: roboto;
+
+}
+
+.super-offer .Supper-offer-left h1 span{
+
+    color: red;
+
+}
+
+.super-offer .Supper-offer-left .img{
+
+    width: 50%;
+    background: rgba(255, 0, 0, 0.233);
+    margin-top: 50px;
+    height: 22.5vw;
+    border-radius: 40px 0px 40px 40px;
+
+}
+
+.super-offer .Supper-offer-left .img img{
+
+    width: 100%;
+    position: relative;
+    bottom: 46px;
+
+}
+
+.super-offer .products-right{
+
+    width: 40%;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.super-offer .products-right .img{
+
+    width: 30%;
+
+}
+.super-offer .products-right .img img{
+
+    width: 100%;
+
+}
+
+.super-offer .products-right li{
+
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.flex{
+
+    display: flex;
+
+}
+
+.margin{
+
+    margin: auto;
+
+}
+.cursor{
+
+    cursor: pointer;
+
+}
+
+/* delivery */
+
+.delivery{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: roboto;
+    margin: 20px 0px;
+
+}
+
+.delivery .ice-cream-left{
+
+    display: flex;
+    width: 40%;
+
+}
+
+.delivery .ice-cream-left .option-text .ul{
+
+    margin-top: 40px;
+
+}
+
+.delivery .ice-cream-left .option-text .ul li{
+
+    list-style: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.delivery .ice-cream-left .option-text .ul li:hover{
+
+    cursor: pointer;
+    color: white;
+    background: black;
+
+}
+
+.delivery .ice-cream-left .img{
+
+    width: 20%;
+    background: rgba(0, 157, 255, 0.309);
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 50px;
+
+}
+
+.delivery .ice-cream-left .img img{
+
+    width: 100%;
+
+}
+
+.delivery .delivery-catigories-right{
+
+    width: 40%;
+
+}
+
+.delivery .delivery-catigories-right .delivery-text h1{
+
+    font-size: 3em;
+    font-family: roboto;
+
+}
+
+.delivery .delivery-catigories-right .delivery-text h1 span{
+
+    color: red;
+
+}
+
+/* footer */
+
+.footer{
+
+    color: white;
+    background: black;
+    font-family: roboto;
+    padding: 50px 100px 100px;
+
+
+}
+
+.footer .ul{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer .ul .logo{
+
+    width: 50px;
+
+}
+.footer .ul .logo img{
+
+    width: 50px;
+
+}
+.footer .ul .logo img:hover{
+
+    cursor: pointer;
+
+}
+
+
+.footer .ul li{
+
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.footer .ul li a{
+
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+
+}
+.footer .ul li a:hover{
+
+    color: rgb(255, 255, 255);
+
+}
+
+.footer .social .ul-social li{
+
+    width: 100px;
+
+}
+
+.footer .social .ul-social li a i:hover{
+
+    color: red;
+    cursor: pointer;
+
+}
